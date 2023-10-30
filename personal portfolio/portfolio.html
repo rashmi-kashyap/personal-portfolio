@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rashmi-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Fira+Sans:ital,wght@0,400;0,500;1,400&family=Labrada:ital,wght@1,500&family=Poppins:wght@600;700&family=Roboto:wght@100;400;500&family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: turquoise;
+            color: black;
+            font-family: 'poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: yellow;
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin:0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        nav ul li a:hover{
+            color: #00CCFF ;
+            font-size: 1.02rem;
+        }
+
+        main hr{
+            border: 0;
+            background-color: lavender;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           margin: 130px 0;
+        }
+        .firstSection > div{
+          width: 30%;
+        }
+        .leftSection{
+            font-size: 2rem;
+        }
+        .rightSection img {
+            width: 90%;
+            margin: 50px 0;
+        }
+        .purple{
+            color: blueviolet;
+        }
+        .text-gray{
+            color: yellow;
+        }
+        #element{
+            color: blueviolet;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh ;
+        }
+        .secondSection h1{
+            font-size: 1.9rem ;
+        }
+        .secondSection .box{
+            background: white;
+            width: 85vw;
+            height: 2px;
+            margin: 56px 0;
+            display:flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 140px;
+        }
+        .image-top{
+            width: 28px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+           position:relative;
+           top: 75px;
+           width: 150px;
+           font-size: 14px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color:yellow ;
+            height: 233px;
+        }
+        .footer{
+            display: flex;
+            margin: 155px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 223px;
+        }
+
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        .btn {
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #016064;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0088CC;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Rashmi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+             
+         Hi, My name is <span class="purple">Rashmi</span> 
+                <div>and I am a passionate</div>
+              
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="girl2.png">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I Have Done So Far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="girl3.png">
+                    <div class="vertical-title">
+                        MilestonesOS | Web Development Training
+                        <span class="purple">(July 31, 2023 - Oct 5, 2023)</span>
+                    </div> 
+                    <div class="vertical-desc">
+                        Completed extensive training in web development, focusing on creating responsive websites. Successfully designed numerous responsive web pages and gained proficiency in using DOM. Acquired knowledge in the latest technologies used in developing web-enabled technology that will be in great demand in the future.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="Capture1.png">
+                    <div class="vertical-title">
+                        Tic Tac Toe Game Project
+                        <span class="purple">(Completed in Oct 2023)</span>
+                    </div> 
+                    <div class="vertical-desc">
+                        Developed a web-based implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript. This project offers an interactive and visually appealing gaming experience with a modern and user-friendly layout. It features a responsive design that adapts seamlessly to different screen sizes. The game allows two players to take turns, with visual indicators showing whose turn it is. Winning lines are dynamically highlighted, and there's an option to reset the game at any point. Sound effects have been integrated to enhance the overall gaming experience. This project not only showcases proficiency in web development technologies but also demonstrates creativity in design and user interaction. It's a testament to my skills in creating engaging and functional web applications.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="girl3.png">
+                    <div class="vertical-title">
+                        Tour and Travel Management Project
+                        <span class="purple">(Completed in June 2022)</span>
+                    </div> 
+                    <div class="vertical-desc">
+                        Led a project focused on revolutionizing travel experiences. Our platform aimed to simplify travel planning by providing users with access to routes, costs, hotel options, adventure activities, and transportation for their dream vacations. We streamlined the booking process for a seamless and hassle-free experience. Throughout this project, I immersed myself in the latest web technologies and gained expertise in client-server setups. This endeavor not only catered to wanderlust but also exposed me to the cutting-edge tech that is shaping the future of travel and web development.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Rashmi's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; rashmisportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Frontend Designer', 'Programmer', 'Artist'],
+          typeSpeed: 50
+        });
+    </script>
+</body>
+</html>
